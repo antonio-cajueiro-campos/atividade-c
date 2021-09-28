@@ -3,7 +3,7 @@
 
 void main() {
 	system("cls");
-	float salMin, salFunc, newSal;
+	float salMin, salFunc;
 	char nameFunc[61];
 
 	printf("Digite o nome do funcionário: ");
