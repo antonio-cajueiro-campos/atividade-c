@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void main() {
+	system("cls");
 	float salMin, salFunc, newSal;
 	char nameFunc[61];
 

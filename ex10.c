@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void main() {
-	scanf();
-	printf();
+	system("cls");
+	
+	scanf("");
+	printf("");
 }
