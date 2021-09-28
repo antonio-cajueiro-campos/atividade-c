@@ -6,11 +6,11 @@ void main() {
 	float salMin, salFunc;
 	char nameFunc[61];
 
-	printf("Digite o nome do funcionário: ");
+	printf("Digite o nome do funcionario: ");
 	scanf("%s", nameFunc);
-	printf("Digite o salário do funcionário: ");
+	printf("Digite o salario do funcionario: ");
 	scanf("%f", &salFunc);
-	printf("Digite o valor do salário mínimo: ");
+	printf("Digite o valor do salario minimo: ");
 	scanf("%f", &salMin);
 
 	if (salFunc <= (salMin * 3.0)) {
@@ -25,5 +25,5 @@ void main() {
 		salFunc += salFunc * 0.1;
 	}
 
-	printf("Novo salário de %s será: %4.2f \n", nameFunc, salFunc);
+	printf("Novo salario de %s sera: %4.2f \n", nameFunc, salFunc);
 }
