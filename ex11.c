@@ -3,27 +3,28 @@
 
 void main() {
 	system("cls");
-	float salMin, salFunc;
-	char nameFunc[61];
+	float minimumSalary, emplooyeeSalary;
+	char emplooyeeName[61];
 
-	printf("Digite o nome do funcionario: ");
-	scanf("%s", nameFunc);
-	printf("Digite o salario do funcionario: ");
-	scanf("%f", &salFunc);
-	printf("Digite o valor do salario minimo: ");
-	scanf("%f", &salMin);
+	printf("Nome do funcionario: ");
+	scanf("%s", emplooyeeName);
+	printf("Salario do funcionario: ");
+	scanf("%f", &emplooyeeSalary);
+	printf("Salario minimo: ");
+	scanf("%f", &minimumSalary);
 
-	if (salFunc <= (salMin * 3.0)) {
-		salFunc += salFunc * 0.5;
+	if (emplooyeeSalary <= (minimumSalary * 3.0)) {
+		emplooyeeSalary += emplooyeeSalary * 0.5;
 	} else
-	if (salFunc >= (salMin * 3.0) && salFunc <= (salMin * 10.0)) {
-		salFunc += salFunc * 0.2;
+	if (emplooyeeSalary >= (minimumSalary * 3.0) && emplooyeeSalary <= (minimumSalary * 10.0)) {
+		emplooyeeSalary += emplooyeeSalary * 0.2;
 	} else
-	if (salFunc > (salMin * 10.0) && salFunc < (salMin * 20.0)) {
-		salFunc += salFunc * 0.15;
+	if (emplooyeeSalary > (minimumSalary * 10.0) && emplooyeeSalary < (minimumSalary * 20.0)) {
+		emplooyeeSalary += emplooyeeSalary * 0.15;
 	} else {
-		salFunc += salFunc * 0.1;
+		emplooyeeSalary += emplooyeeSalary * 0.1;
 	}
 
-	printf("Novo salario de %s sera: %4.2f \n", nameFunc, salFunc);
+	printf("Reajuste de %s sera: %4.2f \n", emplooyeeName, emplooyeeSalary);
+	system("pause");
 }

@@ -5,7 +5,9 @@ void main() {
 	system("cls");
 	int var = 1;
 	while(var <= 10) {
-		printf("%d", var);
+		printf("%d ", var);
 		var++;
 	}
+	printf("\n");
+	system("pause");
 }

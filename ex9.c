@@ -17,11 +17,12 @@ void main() {
 		scanf("%d", &arr[i]);
 	}
 
+	printf("Seus numeros aceitos foram: [ ");
 	for (int i = 1; i <= 15; i++) {
-		if (arr[i] >= 15.0 && arr[i] <= 150.0) {
-			printf("Seu %d numero digitado aceito foi: %d ", i, arr[i]);
-			printf("\n");
+		if (arr[i] >= 15 && arr[i] <= 150) {
+			printf("%d ", arr[i]);
 		}
 	}
-	
+	printf("]\n");
+	system("pause");
 }

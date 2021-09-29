@@ -1,2 +1,0 @@
-gcc -std=c99
-https://drive.google.com/u/0/uc?id=1_xah5ebzhVv-xzuKwYdSJoEcWVALJgU5&export=download
